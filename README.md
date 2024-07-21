@@ -6,10 +6,10 @@ This project belongs to
 4)Udaya Bhatta
 
 Student Management System in C++
-#Introduction
+# Introduction
 The Student Management System is a C++ program designed to manage student records efficiently. It allows users to create, read, update, and delete (CRUD) student information, including marks in various subjects. The program stores student data in a binary file and provides a user-friendly menu to interact with the system.
 
-#Methodologies
+# Methodologies
 Class Definition:
 
 student: This class stores the student details such as roll number, name, marks in various subjects, average marks, and grade. It also contains methods to input data, calculate average marks and grade, and display student details.
@@ -24,8 +24,7 @@ Class Definition and Methods:
 
 The student class encapsulates the student data and provides methods for data manipulation.
 
-cpp
-Copy code
+
 class student {
     int rollno;
     char name[50];
@@ -85,8 +84,8 @@ int main() {
     return 0;
 }
 
-#Discussion
+# Discussion
 The Student Management System demonstrates fundamental concepts of C++ such as classes, file handling, and user input/output. It provides a practical application of these concepts by managing student records. The use of a binary file ensures efficient storage and retrieval of data.
 
-#Conclusion
+# Conclusion
 This Student Management System in C++ effectively manages student records by providing essential CRUD operations. It showcases the power of C++ in handling data through classes and file operations. The program can be further enhanced by adding features such as data validation, more comprehensive error handling, and a graphical user interface.
